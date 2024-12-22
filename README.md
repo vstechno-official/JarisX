@@ -1,49 +1,51 @@
-# JarisX Documentation
-## Introduction
-JarisX can perform mathematical operations, string manipulations, date and time operations, and file and directory operations.
+# JarisX v2.0 🚀
 
+## 🌟 Overview
+JarisX is a powerful, versatile Python utility library designed to simplify common programming tasks with an intuitive and user-friendly interface. From mathematical operations to file management, JarisX provides a comprehensive set of tools for developers and enthusiasts.
 
-## Mathematical Operations
-add(a, b): Prints and returns the sum of a and b.
-subtract(a, b): Prints and returns the difference of a and b.
-multiply(a, b): Prints and returns the product of a and b.
-divide(a, b): Prints and returns the quotient of a divided by b. If b is 0, it prints an error message.
-power(a, b): Prints and returns a raised to the power of b.
-square_root(a): Prints and returns the square root of a.
-factorial(n): Prints and returns the factorial of n.
-fibonacci(n): Prints and returns the first n numbers in the Fibonacci sequence.
-String Manipulations
-palindrome_check(word): Checks if a word is a palindrome and prints the result.
-reverse_string(string_to_reverse): Reverses a string and prints the result.
-length_of_string(string_to_measure): Returns the length of a string and prints the result.
-convert_to_uppercase(string_to_convert): Converts a string to uppercase and prints the result.
+## 🔧 Features
 
-## Date and Time Operations
-current_date(): Returns the current date and prints it.
-current_time(): Returns the current time and prints it.
-day_of_week(): Returns the current day of the week and prints it.
+### 🧮 Mathematical Operations
+- **Basic Arithmetic**
+  - `add(a, b)`: Simple addition
+  - `subtract(a, b)`: Subtraction
+  - `multiply(a, b)`: Multiplication
+  - `divide(a, b)`: Division with error handling
+  - `power(a, b)`: Exponentiation
+  - `square_root(a)`: Square root calculation
 
-## File and Directory Operations
-create_file(filename): Creates a file with the given filename and prints a confirmation message.
-write_to_file(filename, content): Writes content to a file with the given filename and prints a confirmation message.
-read_file(filename): Reads content from a file with the given filename and prints it.
-delete_file(filename): Deletes a file with the given filename and prints a confirmation message.
-list_files(directory): Lists all files in a directory and prints them.
-make_directory(directory_name): Creates a directory with the given name and prints a confirmation message.
-remove_directory(directory_name): Removes a directory with the given name and prints a confirmation message.
-search_files(directory, filename_searched): Searches for files with a specific name in a directory and its subdirectories, then prints any matches found.
+- **Advanced Mathematical Functions**
+  - `factorial(n)`: Calculate factorial
+  - `fibonacci(n)`: Generate Fibonacci sequence
+  - `prime_check(n)`: Check if a number is prime
 
-## Usage
-To use this assistant, create an instance of the Assistant class and call its functions as needed. For example:
+### 🔤 String Manipulations
+- `palindrome_check(word)`: Palindrome verification
+- `reverse_string(text)`: String reversal
+- `length_of_string(text)`: String length
+- `convert_to_uppercase(text)`: Uppercase conversion
+- `sort_list(list)`: List sorting
 
-~~~
-assistant = Assistant()
-assistant.add(1, 2)
-assistant.current_date()
-~~~
+### 📅 Date and Time Operations
+- `current_date()`: Get current date
+- `current_time()`: Get current time
+- `day_of_week()`: Retrieve current day
 
+### 📂 File and Directory Management
+- **File Operations**
+  - `create_file(filename)`: Create new files
+  - `write_to_file(filename, content)`: Write content
+  - `read_file(filename)`: Read file contents
+  - `delete_file(filename)`: Remove files
+  - `list_files(directory)`: List directory contents
+  - `search_files(directory, filename)`: Advanced file search
 
-## Conclusion
-JarisX is designed to provide basic utility functions. It can be extended or modified as needed to suit your specific requirements. Happy coding!
+- **Directory Operations**
+  - `make_directory(name)`: Create directories
+  - `remove_directory(name)`: Delete directories
 
-# Copyright@vstechno-official
+## 🚀 Quick Start
+
+### Installation
+```bash
+pip install jarisx
